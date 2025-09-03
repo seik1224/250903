@@ -37,3 +37,58 @@ a {
 
   7. 디테일 레이아웃, 오렌지 이미지 배치해주세요.
 */
+
+body {
+  background-image: url('images/orange-bg.jpg');
+  font-family:'arial', sans-serif;
+}
+
+.wrapper {
+  background-color: #fff;
+  width: 960px;
+  margin:30px auto;
+  border:3px solid orange;
+  border-radius: 30px;
+  padding:30px;
+  position: relative;
+}
+
+.wrapper .gnb {
+  background-color: orange;
+  position: absolute;
+  right:0;
+  top:0;
+  padding:0 10px;
+  margin:30px;
+  border-radius: 30px;
+}
+
+.wrapper .gnb li {
+  float:left;
+}
+
+.wrapper .gnb li a {
+  display: block;
+  height:50px;
+  line-height: 50px;
+  color:white;
+  padding:0 10px;
+}
+
+.wrapper h1 {
+  color:orange;
+  margin-bottom: 10px;
+}
+
+.wrapper p {
+  width:300px;
+  float: left;
+  margin-right: 30px;
+  line-height: 1.3;
+}
+
+.wrapper .point {
+  position: absolute;
+  right:-30px;
+  bottom:-100px;
+}
